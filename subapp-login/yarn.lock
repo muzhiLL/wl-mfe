@@ -8279,10 +8279,18 @@ which@^2.0.1:
   dependencies:
     isexe "^2.0.0"
 
-wl-core@^1.0.0, wl-core@^1.0.9:
+wl-core@^1.0.0:
   version "1.0.9"
   resolved "https://registry.yarnpkg.com/wl-core/-/wl-core-1.0.9.tgz#9383c70704dd6fa41c46022d7cc4cbc3dd34f679"
   integrity sha512-+FTMsnq+FnH9lgYgHRUDLUKAFJdlWbjwXonfv2N+CMr6AmNj3lNVJOgW4DGc/AISUOLQhvUBd3prGPU72Lxv0A==
+  dependencies:
+    big.js "^5.2.2"
+    dayjs "^1.8.25"
+
+wl-core@^1.1.9:
+  version "1.1.9"
+  resolved "https://registry.yarnpkg.com/wl-core/-/wl-core-1.1.9.tgz#b2b38d8e59be60fe156ebf27297f0ff2abaa3a14"
+  integrity sha512-7L83qEnrVW3YmPVqSwnlagoWJyVq/uSXkCFzND64nwtSdDm7o1RZQWiVgQcEilZxE0qLrRQKmjuAihNT6fWCjA==
   dependencies:
     big.js "^5.2.2"
     dayjs "^1.8.25"
